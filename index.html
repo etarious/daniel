@@ -4,8 +4,21 @@
         <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Daniel's Web Tutorial</title>
+        <style>
+            li{
+                color: green;
+            }
+
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+            }
+        </style>
     </head>
     <body>
+        <!-- Top Navigation starts
+            This is for the wide screens like Desktops...
+        -->
         <nav style="background-color: aqua;">
             <ul style="display: flex; list-style: none;">
                 <li>Home</li>
@@ -13,22 +26,150 @@
                 <li>About Us</li>
             </ul>
         </nav>
+        <!-- Top Navigation ends -->
+
         <header style="background-color: red; color: white;">
             <h1>Web Tutorial</h1>
             <p>Welcome to the web Tutorial class!</p>
         </header>
 
         <div class="wrapper">
+            <marquee behavior="alternate" direction="right">This Marquee is going left</marquee>
+            <aside>
+                This is the side bar
+            </aside>
+            <article>
+                <h3>This is an article</h3>
+                <p>I am testing the article element</p>
+            </article>
             <h3>Contents</h3>
             <p>This is where all of our contents go...</p>
+
+            <div><a href="./index1.html" style="background-color: red; padding: 10px 20px; border-radius: 10px; color: white; text-decoration: none; margin-bottom: 20px;"> Go to old page</a> </div>
+            <a href="https://www.w3schools.com" style="padding-left: 300px;" target="_blank">W3 Schools</a>
+            <a href="./src/display.html" target="_blank">Display</a>
+            
+            <h3>Lists</h3>
+            <h5>Ordered List</h5>
+            <ol>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ol>
+            <h5>Unordered List</h5>
+            <ul>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+            </ul>
+
+            <h3>Formatting Elements</h3>
+            <p>I am <b>bold</b></p>
+            <p>I am <strong>strong</strong></p>
+            <p>This text will be <i>italized</i></p>
+            <p>This text will be <em>emphasized</em></p>
+            <p>This text is <mark>marked</mark></p>
+            <p>I am a <small>small</small> text</p>
+            <p>I am <del>deleted</del></p>
+            <p>I am just <ins>inserted</ins> into this text</p>
+            <p>1<sup>st</sup></p>
+            <p>H<sub>2</sub>O</p>
+
+            <section>
+                <h3>This is a section</h3>
+                <p>
+                    This section is for testing
+                </p>
+            </section>
+
+            <section>
+                <h3>This is my first Table in HTML5</h3>
+                <table>
+                    <tr>
+                        <th>Company</th>
+                        <th>Contact</th>
+                        <th>Country</th>
+                    </tr>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                    </tr>
+                </table>
+            </section>
+
+            <section>
+                <table>
+                    <caption>Assignment</caption>
+                    <tr>
+                        <th colspan="4">DAILY TIME TABLE</th>
+                    </tr>
+                    <tr>
+                        <th>Days of the week</th>
+                        <th>Period</th>
+                        <th>Work</th>
+                        <th>Duration</th>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Monday</th>
+                        <td>Morning</td>
+                        <td>House Chores</td>
+                        <td>2hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon</td>
+                        <td>Make Money</td>
+                        <td>8hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Night</td>
+                        <td>Watch a movie</td>
+                        <td>4hrs</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Tuesday</th>
+                        <td>Morning</td>
+                        <td>Gym</td>
+                        <td>2hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon</td>
+                        <td>Make Money</td>
+                        <td>8hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Night</td>
+                        <td>Stroll</td>
+                        <td>3hrs</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="3">Wednesday</th>
+                        <td>Morning</td>
+                        <td>House Chores</td>
+                        <td>2hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Afternoon</td>
+                        <td>Meetings</td>
+                        <td>5hrs</td>
+                    </tr>
+                    <tr>
+                        <td>Night</td>
+                        <td>Check on Social Media</td>
+                        <td>2hrs</td>
+                    </tr>
+                </table>
+            </section>
         </div>
-        
-        <!-- <h2>Heading</h2>
-        <h3>Heading</h3>
-        <h4>Heading</h4>
-        <h5>Heading</h5>
-        <h6>Heading</h6> -->
+
+
 
         <footer style="background-color: blue; color: whitesmoke;">copyright &#169; Daniel's Tutorial</footer>
+
+        <!-- <script src="./js/scripts.js"></script> -->
+        <script>
+            // alert("I am Working");
+
+        </script>
     </body>
 </html>
