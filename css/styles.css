@@ -1,0 +1,35 @@
+/* table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+
+/* target{property:value} */
+
+html{
+    background-color: black;
+    color: white    ;
+}
+
+.bg-grey{
+    background-color: grey;
+}
+
+#table-1{
+    color: white;
+    border: 1px solid red;
+    padding: 10px;
+}
+
+#table-2{
+    color: yellow;
+}
+
+
+form{
+    border: 1px solid black;
+    padding: 10px;
+    max-width: 500px;
+    margin: 10px;
+}
+

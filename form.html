@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms in HTML5</title>
+</head>
+<body>
+    <h1>FORMS!!!</h1>
+
+    <form action="#" method="post">
+        <div>
+            <label for="firstname">Firstname:</label><br>
+            <input type="text" name="firstname" placeholder="Firstname" id="firstname" >
+        </div>
+
+        <input type="text" name="token" placeholder="Token" id="token" hidden>
+
+        <div>
+            <label for="email">Email Address:</label><br>
+            <input type="email" name="email" placeholder="Email" id="email" >
+        </div>
+
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" name="password" placeholder="Password" id="password" >
+        </div>
+
+        <div>
+            <label for="dob">Date of Birth:</label><br>
+            <input type="date" name="dob" id="dob">
+        </div>
+
+        <div>
+            <input type="tel" name="tel" id="tel">
+        </div>
+
+        <div>
+            <label for="teacher">Teacher:</label>
+            <input type="checkbox" name="profession" value="teacher" id="teacher" >
+            <label for="lecturer">Lecturer:</label>
+            <input type="checkbox" name="profession" value="lecturer" id="lecturer">
+        </div>
+
+        <div>
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" value="female" id="female">
+        </div>
+
+        <input type="color" name="color" id="color">
+
+        <div>
+            <textarea name="bio" id="bio" placeholder="Tell us about yourself..."></textarea>
+        </div>
+
+    
+        <input type="reset" value="Reset">
+        <input type="submit" value="Signup" >
+    </form>
+</body>
+</html>

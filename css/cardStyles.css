@@ -1,0 +1,25 @@
+.card{
+    color: white;
+    background-color: orangered;
+    max-width: 500px;
+    border-radius: 10px;
+    /* padding: 10px; */
+    /* padding: 30px 5px 20px 10px; */
+    padding: 2px 30px 20px 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#price{
+    text-align: center;
+    font-size: 40px;
+}
+
+#img{
+    float: right;
+    margin-top: -50px;
+}
+
+#code{
+    float: right;
+    margin-top: -80px;
+}
